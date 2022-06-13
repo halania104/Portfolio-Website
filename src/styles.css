@@ -1,0 +1,14 @@
+.root {
+  --heading-color: #764af1;
+  --heading-font-size: 96px;
+  --subheading-font-size: 24px;
+  --subheading-color: #ffef82;
+}
+h1 {
+  font-size: var(--heading-font-size);
+  color: var(--heading-color);
+}
+h3 {
+  font-size: var(--subheading-font-size);
+  color: var(--subheading-color);
+}
